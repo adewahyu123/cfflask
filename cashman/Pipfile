@@ -4,8 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = "*"
+Flask = "==0.12.2"
 marshmallow = "*"
+certifi = "==2018.1.18"
+click = "==6.7"
+itsdangerous = "==0.24"
+"Jinja2" = "==2.10"
+MarkupSafe = "==1.0"
+pipenv = "==11.8.3"
+virtualenv = "==15.1.0"
+virtualenv-clone = "==0.3.0"
+Werkzeug = "==0.14.1"
 
 [dev-packages]
 
